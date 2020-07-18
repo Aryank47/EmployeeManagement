@@ -13,7 +13,7 @@ public class DatabaseUtility {
 				try {
 					Class.forName("oracle.jdbc.driver.OracleDriver");
 					System.out.println("Driver loaded");
-					connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "aryan", "ak");
+					connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "your_username", "your_password");
 					System.out.println("connection is established.");
 				} 
 			
